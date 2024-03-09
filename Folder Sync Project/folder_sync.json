@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+        "path": "C:\\Users\\User\\Videos",
+        "media": ["mov","mp4","mp3","wav"]
+        },
+        {
+        "path":"D:\\Project\\Archive",
+        "media":["jpg","mov","mp4"]
+        }
+    ]
+}
