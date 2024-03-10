@@ -9,3 +9,4 @@ You need to add a 2nd "\\" to the file path for windows directories. "C:\" becom
 
 The folder_list function will import all specified media types from the directories the json file includes
 and import them into your current project.
+This function does not currently go into sub-directories
