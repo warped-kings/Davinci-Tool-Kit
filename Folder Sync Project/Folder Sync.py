@@ -36,19 +36,7 @@ resolve = GetResolve()
 class DavinciToolKit:
     def __init__(self):
         self.pm = resolve.GetProjectManager()
-
         return
-    
-    def folder_sync(self,bin_name,folder):
-        mediastorage = resolve.GetMediaStorage()
-        medpool = resolve.GetMediaPool()
-        root = medpool.GetRootFolder()
-        medpool.SetCurrentFolder(root)
-        subs = root.GetSubFolderList()
-        for sub in subs:
-            if sub.GetName() == bin_name:
-                medpool.SetCurrentFolder(sub)
-        items = mediastorage.AddItemListToMediaPool(folder)
 
     
     def folder_list(self,file):
@@ -88,5 +76,4 @@ if __name__ == "__main__":
     if resolve:
         dtk = DavinciToolKit()
         dtk.folder_list("C:\\**Your**\\**Path**\\**to file**\\folder_sync.json")
-        #dtk.folder_sync
     time.sleep(3)
