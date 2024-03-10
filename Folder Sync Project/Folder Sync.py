@@ -88,4 +88,5 @@ if __name__ == "__main__":
     if resolve:
         dtk = DavinciToolKit()
         dtk.folder_list("C:\\**Your**\\**Path**\\**to file**\\folder_sync.json")
+        #dtk.folder_sync
     time.sleep(3)
